@@ -46,6 +46,12 @@ elif ordem == 2:
             print()
 
     else:
+        print("MATRIZ: ")
+        for i in range(0, ordem):
+            for j in range(0, ordem):
+                print("{} ".format(matriz[i][j]), end="")
+            print()
+        print()
         print("Matriz Singular")
 
 elif ordem == 3:
